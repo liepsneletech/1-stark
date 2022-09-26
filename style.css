@@ -255,10 +255,48 @@ body {
 
 /* ACCESSIBILITY */
 
+.section-accessibility {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.accessibility-text {
+  padding-bottom: 72px;
+}
+
+.accessibility-heading-highlight-grand-parent {
+  display: inline-block;
+  position: relative;
+}
+
 .accessibility-heading-highlight {
-  overflow: visible;
-  background-image: url("/img/accessibility-heading-highlight.png");
-  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.accessibility-highlight-img {
+  position: absolute;
+  bottom: -5px;
+  right: -20px;
+  z-index: -1;
+}
+
+.accessibility-advantages-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 55px;
+}
+
+.accessibility-advantage-title {
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: #1b264d;
+}
+
+.accessibility-advantage-description {
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 /* MEDIA QUERIES */
