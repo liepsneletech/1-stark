@@ -1,9 +1,20 @@
+/* CUSTOM FONTS */
+
+@font-face {
+  font-family: "armingroteskblack";
+  src: url(fonts/ArminGrotesk-Black.woff);
+}
+
+@font-face {
+  font-family: "armingroteskregular";
+  src: url(fonts/ArminGrotesk-Regular.woff);
+}
+
 /* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins, sans-serif;
 }
 
 html {
@@ -21,16 +32,18 @@ ul {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
-  line-height: 1;
+  font-family: "armingroteskregular";
   font-weight: 400;
+  line-height: 1;
   background-color: #f7f7ec;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
+/* -------------------------------------------------------------------------- */
 /* CODE STARTS */
+/* -------------------------------------------------------------------------- */
 
 .container {
   margin: 0 auto;
@@ -96,9 +109,10 @@ header .sign-up-btn {
 }
 
 .primary-heading {
-  font-size: 50px;
+  font-family: "armingroteskblack";
+  font-size: 70px;
   color: #1e2c4d;
-  line-height: 1.2;
+  line-height: 1.1;
   font-weight: 600;
   margin-bottom: 25px;
   width: 16ch;
@@ -111,11 +125,12 @@ header .sign-up-btn {
 }
 
 .subheading {
+  font-family: Roboto Mono, sans-serif;
   color: #352a96;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 13px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .hero-description,
@@ -223,8 +238,9 @@ header .sign-up-btn {
 }
 
 .secondary-heading {
+  font-family: "armingroteskblack";
   padding-bottom: 30px;
-  font-size: 36px;
+  font-size: 40px;
   color: #1e2c4d;
   text-align: center;
 }
@@ -298,6 +314,7 @@ header .sign-up-btn {
 .feature-description {
   font-size: 14px;
   line-height: 1.4;
+  color: #646459;
 }
 
 /* FEATURES */
@@ -329,7 +346,7 @@ header .sign-up-btn {
 .features-highlight-img {
   position: absolute;
   top: -11px;
-  left: -20px;
+  left: -13px;
   z-index: -1;
 }
 
@@ -355,7 +372,7 @@ header .sign-up-btn {
 .customers-highlight-img {
   position: absolute;
   top: -2px;
-  right: -20px;
+  right: -9px;
   z-index: -1;
 }
 
