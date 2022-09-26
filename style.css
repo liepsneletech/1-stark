@@ -374,4 +374,14 @@ header .sign-up-btn {
   text-align: center;
 }
 
+/* FOOTER */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding-top: 62px;
+  padding-bottom: 52px;
+}
+
 /* MEDIA QUERIES */
