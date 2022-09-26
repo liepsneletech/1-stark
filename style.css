@@ -322,4 +322,20 @@ body {
   row-gap: 55px;
 }
 
+.features-heading-highlight-grand-parent {
+  display: inline-block;
+  position: relative;
+}
+
+.features-heading-highlight {
+  overflow: hidden;
+}
+
+.features-highlight-img {
+  position: absolute;
+  bottom: -5px;
+  right: -20px;
+  z-index: -1;
+}
+
 /* MEDIA QUERIES */
