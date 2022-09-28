@@ -41,14 +41,43 @@ body {
   overflow-x: hidden;
 }
 
-/* -------------------------------------------------------------------------- */
-/* CODE STARTS */
-/* -------------------------------------------------------------------------- */
-
 .container {
   margin: 0 auto;
   max-width: 1166px;
 }
+
+/* -------------------------------------------------------------------------- */
+/* CODE STARTS */
+/* -------------------------------------------------------------------------- */
+
+/* MOBILE MENU */
+
+.main-nav {
+  display: none;
+}
+
+.mobile-menu-btn {
+  background: none;
+  border: none;
+  color: #3f329f;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-nav.mobile-menu-open {
+  display: block;
+}
+
+.fa-x.close,
+.hamburger.hide {
+  display: none;
+}
+
+.close.show {
+  display: block;
+}
+
+/* HEADER AND HERO */
 
 .header {
   display: flex;
@@ -197,11 +226,6 @@ header .sign-up-btn {
 .hero-btns-row {
   position: relative;
   display: inline-block;
-}
-
-.fa-solid.fa-bars {
-  font-size: 22px;
-  color: #0b0e20;
 }
 
 /* CHECKIT OUT SECTION */
