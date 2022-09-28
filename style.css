@@ -129,7 +129,7 @@ header .sign-up-btn {
 
 .subheading {
   font-family: Roboto Mono, sans-serif;
-  color: #352a96;
+  color: #3626ca;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
@@ -160,7 +160,7 @@ header .sign-up-btn {
 .sign-up-btn:active {
   background-color: #fff;
   color: #3626ca;
-  box-shadow: 0 0 0 1px #352a96 inset;
+  box-shadow: 0 0 0 1px #3626ca inset;
   border: none;
 }
 
@@ -170,12 +170,13 @@ header .sign-up-btn {
 
 .learn-more-btn:link,
 .learn-more-btn:visited {
+  font-family: Roboto Mono;
   padding: 8px 22px;
   box-shadow: 0 0 0 1px #0b0e20 inset;
   border-radius: 3px;
   text-decoration: none;
   color: #0b0e20;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 13px;
 }
 
@@ -196,6 +197,11 @@ header .sign-up-btn {
 .hero-btns-row {
   position: relative;
   display: inline-block;
+}
+
+.fa-solid.fa-bars {
+  font-size: 22px;
+  color: #0b0e20;
 }
 
 /* CHECKIT OUT SECTION */
@@ -453,7 +459,29 @@ header .sign-up-btn {
   color: #040d18;
 }
 
+/* CHAT */
+.chat-icon-img {
+  position: fixed;
+  right: 17px;
+  bottom: 17px;
+}
+
 /* MEDIA QUERIES */
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 560px) {
+}
+
+@media only screen and (max-width: 780px) {
+}
+
+@media only screen and (max-width: 960px) {
+}
 
 @media only screen and (max-width: 320px) {
 }
